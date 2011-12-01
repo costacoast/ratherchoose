@@ -14,7 +14,7 @@
 
 .wwyr-item{
 	position:relative;
-    padding:15px 10px 5px;
+    padding:15px 0px 5px;
     margin:50px 0px 0px;
     text-align:center;
     color:#fff;
@@ -29,39 +29,58 @@
 	color: white;
 }
 
-#opt-left{
-	position:relative;
-	text-align:center;
-	margin: 10px 60px 10px 60px;
-	padding: 10px 10px 0px;
-
-	/* css3 */
-    -webkit-border-radius:10px;
-    -moz-border-radius:10px;
-    border-radius:10px;
+.wwyr-item > .opt-left{
+	margin: 10px 50px 10px 50px;
+	border:none;
+	padding:0;
 }
 
-#opt-right{
-	position:relative;
-	text-align:center;
-	margin: 10px 10px 10px 60px;
-	padding: 10px 10px 0px;
-
-	/* css3 */
-    -webkit-border-radius:10px;
-    -moz-border-radius:10px;
-    border-radius:10px;
+.wwyr-item > .opt-right{
+	margin: 10px 50px 10px 50px;
+	border:none;
+	padding:0;
 }
 
-.pinched {
-    position:relative;
-    padding:15px;
-    margin:50px 0 3em;
-    text-align:center;
-    color:#fff;
-    background:#333; 
-    /* css3 */
-    -webkit-border-radius:10px;
-    -moz-border-radius:10px;
-    border-radius:10px;
+.button {
+   border-top: 1px solid #d6d6d6;
+   background: #575859;
+   background: -webkit-gradient(linear, left top, left bottom, from(#b8b8b8), to(#575859));
+   background: -webkit-linear-gradient(top, #b8b8b8, #575859);
+   background: -moz-linear-gradient(top, #b8b8b8, #575859);
+   background: -ms-linear-gradient(top, #b8b8b8, #575859);
+   background: -o-linear-gradient(top, #b8b8b8, #575859);
+   padding: 5px 10px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #ededed;
+   font-size: 14px;
+   font-family: Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   float:left;
+   overflow:none;
+   }
+.button:hover {
+   border-top-color: #787878;
+   background: #787878;
+   color: #ccc;
+   text-decoration:none;
+   }
+.button:active {
+   border-top-color: #505457;
+   background: #505457;
+   }
+
+.comment-link{
+	text-decoration: none;
+	color: #ededed;
+}
+.comment-link:hover{
+	text-decoration: none;
+	color: #ccc;
 }
